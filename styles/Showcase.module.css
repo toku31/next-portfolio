@@ -1,0 +1,38 @@
+.section {
+  display: 'flex';
+  flex-direction: 'row';
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+
+  /* @media ${(props) => props.theme.breakpoints.md} {
+    padding: 24px 48px 0;
+    flex-direction: column; */
+}
+
+.sectiontitle {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 72px;
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: 10px; 
+}
+
+.sectiontext {
+  max-width: 800px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 1.0rem;
+  padding-left: 10px; 
+  color: rgba(255, 255, 255, 0.5);
+}
