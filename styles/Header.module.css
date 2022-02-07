@@ -81,3 +81,7 @@
   opacity: 1;
   cursor: pointer;
 }
+
+.header {
+  margin-bottom: 50px;
+}

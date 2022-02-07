@@ -10,7 +10,7 @@ export default function Showcase() {
         My Personal Portfolio
       </p>
       <p className={Styles.sectiontext}>
-        The purpose of this site is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        The purpose of this site is to introduce some my application works to show my development skills.
       </p>
     </div>
   </div>
