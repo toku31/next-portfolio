@@ -7,7 +7,7 @@ export default function Works() {
       {
       title: "E-Commerce ProShop",
       skils: ["react.js", "next.js", "HTML", "CSS"],
-      description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresです。Eメール: user@gmail.com パスワード: test1357でログインできます。",
+      description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresを使っています。",
       github: "https://github.com/toku31/react-django-ecommerce",
       github2: "",
       visit: "https://ecommerce-proshop01.herokuapp.com",
