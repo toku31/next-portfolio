@@ -74,16 +74,21 @@
 
 .workgithub:hover {
   background-color: #114b3a;
+  border-radius: 5px;
+  padding: 5px;
   transform: scale(1.2);
   cursor: pointer;
 }
 
 .workvisit {
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 40px;
 }
 
 .workvisit:hover {
   background-color: #114b3a;
+  border-radius: 5px;
+  padding: 5px;
   transform: scale(1.2);
   cursor: pointer;
 }

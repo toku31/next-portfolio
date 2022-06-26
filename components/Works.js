@@ -5,13 +5,22 @@ export default function Works() {
 
   const workData = [
       {
+        title: "開発メモ用ブログ",
+        skils: ["react.js", "next.js", "HTML", "CSS"],
+        description: "Next.jsを使って簡素なMarkdownブログをつくりました。markdownファイルにはfront-matterを用いて記事のmeta情報を管理しています。",
+        github: "https://github.com/toku31/next-devspace-blog",
+        github2: "",
+        visit: "https://next-devspace-blog-azure.vercel.app/",
+        id: 1,
+      },
+      {
       title: "E-Commerce ProShop",
       skils: ["react.js", "next.js", "HTML", "CSS"],
       description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresを使っています。",
       github: "https://github.com/toku31/react-django-ecommerce",
       github2: "",
       visit: "https://ecommerce-proshop01.herokuapp.com",
-      id: 1,
+      id: 2,
     },
     {
       title: "ITイベント情報",
@@ -20,7 +29,7 @@ export default function Works() {
       github: "https://github.com/toku31/itevents-nextjs-frontend",
       github2: "https://github.com/toku31/iteventsbackend07",
       visit: "https://iteventsfrontend.vercel.app",
-      id: 2,
+      id: 3,
     },
     {
       title: "不動産サイト BT Real Estate",
@@ -29,7 +38,7 @@ export default function Works() {
       github: "https://github.com/toku31/btre_project",
       github2: "",
       visit: "https://btrealestate-site.herokuapp.com/",
-      id: 3,
+      id: 4,
     },
     {
       title: "ショッピングサイト React Shopping Cart",
@@ -38,7 +47,7 @@ export default function Works() {
       github: "https://github.com/toku31/btre_project",
       github2: "",
       visit: "https://react-shopping-cart-test1.herokuapp.com/",
-      id: 4,
+      id: 5,
     },
   ]
 
