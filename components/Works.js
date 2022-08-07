@@ -32,14 +32,23 @@ export default function Works() {
       id: 3,
     },
     // {
-    //   title: "目標設定アプリ Goal Setter",
-    //   skils: ["MongoDB", "Express", "React", "Node.js"],
-    //   description: "MERNスタック(MongoDB, Express, React, Node.js)を使って目標を覚書するアプリをつくりました。アプリ自体はシンプルですがCRUDやRest API, JWT認証機能, React Toolkitを実装しています。 ",
-    //   github: "https://github.com/toku31/mern-goalsetter",
+    //   title: "開発用お気に入り保存アプリ",
+    //   skils: ["Django", "Bootstrap"],
+    //   description: "Djangoを用いて開発向けサイトをお気に入りとして保存できるアプリを作成しました。カテゴリーやタグで分類して表示したり、キーワード検索する機能も追加しています。フロントエンドはBootstrapをデーターベースはPostgresを使いました。",
+    //   github: "https://tranquil-fortress-87504.herokuapp.com/",
     //   github2: "",
-    //   visit: "https://mern-goalsetter01.herokuapp.com/login",
+    //   visit: "https://tranquil-fortress-87504.herokuapp.com/",
     //   id: 4,
     // },
+    {
+      title: "目標設定アプリ Goal Setter",
+      skils: ["MongoDB", "Express", "React", "Node.js"],
+      description: "MERNスタック(MongoDB, Express, React, Node.js)を使って目標を覚書するアプリをつくりました。アプリ自体はシンプルですがCRUDやRest API, JWT認証機能, React Toolkitを実装しています。 ",
+      github: "https://github.com/toku31/mern-goalsetter",
+      github2: "",
+      visit: "https://mern-goalsetter01.herokuapp.com/login",
+      id: 4,
+    },
     {
       title: "ITイベント情報",
       skils: ["react.js", "Next.js", "HTML", "CSS"],
@@ -58,15 +67,15 @@ export default function Works() {
       visit: "https://btrealestate-site.herokuapp.com/",
       id: 6,
     },
-    {
-      title: "ショッピングサイト React Shopping Cart",
-      skils: ["react.js", "Next.js", "HTML", "CSS"],
-      description: "React.jsを用いてショッピングカートのサイトを作成しました。値段やサイズで並び変えできるようにしました。",
-      github: "https://github.com/toku31/react-shopping-cart",
-      github2: "",
-      visit: "https://react-shopping-cart-test1.herokuapp.com/",
-      id: 7,
-    },
+    // {
+    //   title: "ショッピングサイト React Shopping Cart",
+    //   skils: ["react.js", "Next.js", "HTML", "CSS"],
+    //   description: "React.jsを用いてショッピングカートのサイトを作成しました。値段やサイズで並び変えできるようにしました。",
+    //   github: "https://github.com/toku31/react-shopping-cart",
+    //   github2: "",
+    //   visit: "https://react-shopping-cart-test1.herokuapp.com/",
+    //   id: 7,
+    // },
   ]
 
   // console.log(workData)
