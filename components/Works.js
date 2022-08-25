@@ -19,7 +19,7 @@ export default function Works() {
       description: "Next.jsを使って簡素なMarkdownブログをつくりました。markdownファイルにはfront-matterを用いて記事のmeta情報を管理しています。",
       github: "https://github.com/toku31/next-devspace-blog",
       github2: "",
-      visit: "https://next-devspace-blog-azure.vercel.app/",
+      visit: "https://next-devspace-blog1.vercel.app/",
       id: 2,
     },
     {
