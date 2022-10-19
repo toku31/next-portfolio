@@ -32,6 +32,15 @@ export default function Works() {
       id: 5,
     },
     {
+      title: "開発用お気に入り保存アプリ",
+      skils: ["Django", "Bootstrap"],
+      description: "Djangoを用いて開発向けサイトをお気に入りとして保存できるアプリを作成しました。カテゴリーやタグで分類して表示したり、キーワード検索する機能も追加しています。フロントエンドはBootstrapを、データーベースはPostgresを使いました。",
+      github: "https://github.com/toku31/sites-saver",
+      github2: "",
+      visit: "https://sites-saver1-production.up.railway.app",
+      id: 4,
+    },
+    {
       title: "E-Commerce ProShop",
       skils: ["react.js", "Django", "HTML", "CSS"],
       description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresを使っています。",
@@ -39,15 +48,6 @@ export default function Works() {
       github2: "",
       // visit: "https://ecommerce-proshop01.herokuapp.com",
       id: 1,
-    },
-    {
-      title: "開発用お気に入り保存アプリ",
-      skils: ["Django", "Bootstrap"],
-      description: "Djangoを用いて開発向けサイトをお気に入りとして保存できるアプリを作成しました。カテゴリーやタグで分類して表示したり、キーワード検索する機能も追加しています。フロントエンドはBootstrapを、データーベースはPostgresを使いました。",
-      github: "https://github.com/toku31/sites-saver",
-      github2: "",
-      // visit: "https://tranquil-fortress-87504.herokuapp.com/",
-      id: 4,
     },
     {
       title: "不動産サイト BT Real Estate",
