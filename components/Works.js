@@ -5,6 +5,15 @@ export default function Works() {
 
   const workData = [
     {
+      title: "E-Commerce ProShop",
+      skils: ["react.js", "Django", "HTML", "CSS"],
+      description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresを使っています。",
+      github: "https://github.com/toku31/react-django-ecommerce",
+      github2: "",
+      visit: "https://django-react-proshop-production.up.railway.app/#/",
+      id: 1,
+    },
+    {
       title: "開発メモ用ブログ",
       skils: ["react.js", "Next.js", "HTML", "CSS"],
       description: "Next.jsを使って簡素なMarkdownブログをつくりました。markdownファイルにはfront-matterを用いて記事のmeta情報を管理しています。",
@@ -39,15 +48,6 @@ export default function Works() {
       github2: "",
       visit: "https://sites-saver1-production.up.railway.app",
       id: 4,
-    },
-    {
-      title: "E-Commerce ProShop",
-      skils: ["react.js", "Django", "HTML", "CSS"],
-      description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresを使っています。",
-      github: "https://github.com/toku31/react-django-ecommerce",
-      github2: "",
-      // visit: "https://ecommerce-proshop01.herokuapp.com",
-      id: 1,
     },
     {
       title: "不動産サイト BT Real Estate",
