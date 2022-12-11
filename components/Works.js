@@ -10,7 +10,7 @@ export default function Works() {
       description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresを使っています。",
       github: "https://github.com/toku31/react-django-ecommerce",
       github2: "",
-      visit: "https://django-react-proshop-production.up.railway.app/#/",
+      visit: "https://wholesale-governor-production.up.railway.app/#/",
       id: 1,
     },
     {
@@ -46,7 +46,7 @@ export default function Works() {
       description: "Djangoを用いて開発向けサイトをお気に入りとして保存できるアプリを作成しました。カテゴリーやタグで分類して表示したり、キーワード検索する機能も追加しています。フロントエンドはBootstrapを、データーベースはPostgresを使いました。",
       github: "https://github.com/toku31/sites-saver",
       github2: "",
-      visit: "https://sites-saver1-production.up.railway.app",
+      visit: "https://acidic-rabbits-production.up.railway.app",
       id: 4,
     },
     {
@@ -55,7 +55,7 @@ export default function Works() {
       description: "不動産サイトを作成しました。画面はフリーの素材を借りていて、主にサーバーサイドをDjangoで作りました。",
       github: "https://github.com/toku31/btre_project",
       github2: "",
-      // visit: "https://btrealestate-site.herokuapp.com/",
+      visit: "https://django-render-l71n.onrender.com",
       id: 6,
     },
     {
