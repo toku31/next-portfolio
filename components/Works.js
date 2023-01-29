@@ -4,15 +4,15 @@ import Styles from '../styles/Works.module.css'
 export default function Works() {
 
   const workData = [
-    {
-      title: "E-Commerce ProShop",
-      skils: ["react.js", "Django", "HTML", "CSS"],
-      description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresを使っています。",
-      github: "https://github.com/toku31/react-django-ecommerce",
-      github2: "",
-      visit: "https://wholesale-governor-production.up.railway.app/#/",
-      id: 1,
-    },
+    // {
+    //   title: "E-Commerce ProShop",
+    //   skils: ["react.js", "Django", "HTML", "CSS"],
+    //   description: "フロントエンドはReact.js & Redux バックエンドはDjangoフレームワークを用いて、Eコマースサイトを作成しました。データベースはPostgresを使っています。",
+    //   github: "https://github.com/toku31/react-django-ecommerce",
+    //   github2: "",
+    //   visit: "https://wholesale-governor-production.up.railway.app/#/",
+    //   id: 1,
+    // },
     {
       title: "開発メモ用ブログ",
       skils: ["react.js", "Next.js", "HTML", "CSS"],
@@ -32,6 +32,15 @@ export default function Works() {
       id: 3,
     },
     {
+      title: "物件探しサイト",
+      skils: ["React", "Firebase"],
+      description: "ReactとFirebaseを用いて不動産物件を売買できるサイトをつくりました。メールアドレスやGoogleアカウントで認証して、Cloud FireStore(クラウドデータベース)にデータ保存できるようにしました。",
+      github: "https://github.com/toku31/react-house-market",
+      github2: "",
+      visit: "https://react-firebase-realtor.vercel.app/",
+      id: 4,
+    },
+    {
       title: "ITイベント情報",
       skils: ["react.js", "Next.js", "HTML", "CSS"],
       description: "小規模のIT勉強会やセミナー等を通知できるサイトを作成しました。フロントエンドはNext.js, バックエンドはStrapiというヘッドレスCMSを使っています。",
@@ -46,7 +55,7 @@ export default function Works() {
       description: "Djangoを用いて開発向けサイトをお気に入りとして保存できるアプリを作成しました。カテゴリーやタグで分類して表示したり、キーワード検索する機能も追加しています。フロントエンドはBootstrapを、データーベースはPostgresを使いました。",
       github: "https://github.com/toku31/sites-saver",
       github2: "",
-      visit: "https://acidic-rabbits-production.up.railway.app",
+      visit: "https://sites-saver1-production-b1de.up.railway.app/",
       id: 4,
     },
     {
@@ -64,7 +73,7 @@ export default function Works() {
       description: "MERNスタック(MongoDB, Express, React, Node.js)を使って目標を覚書するアプリをつくりました。アプリ自体はシンプルですがCRUDやRest API, JWT認証機能, React Toolkitを実装しています。 ",
       github: "https://github.com/toku31/mern-goalsetter",
       github2: "",
-      // visit: "https://mern-goalsetter01.herokuapp.com/login",
+      visit: "https://mern-goalsetter-production.up.railway.app/",
       id: 4,
     },
     // {
