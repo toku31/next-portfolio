@@ -14,6 +14,15 @@ export default function Works() {
     //   id: 1,
     // },
     {
+      title: "家計簿アプリExpense Tracker",
+      skils: ["react.js", "Next.js", "HTML", "CSS"],
+      description: "MERNスタック(MongoDB, Express, React, Node.js)を使って家計簿アプリをつくりました。入力一覧とその収支分析を表示しています。期間や収支別で選択できるようにしました。メールアドレス:sam@gmail.com, パスワード:123456でログインできます。",
+      github: "https://github.com/toku31/mern-expense-tracker",
+      github2: "",
+      visit: "https://mern-expense-tracker-production.up.railway.app/",
+      id: 1,
+    },
+    {
       title: "開発メモ用ブログ",
       skils: ["react.js", "Next.js", "HTML", "CSS"],
       description: "Next.jsを使って簡素なMarkdownブログをつくりました。markdownファイルにはfront-matterを用いて記事のmeta情報を管理しています。",
